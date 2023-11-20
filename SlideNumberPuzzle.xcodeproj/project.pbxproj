@@ -14,6 +14,9 @@
 		AB1926992B08DC0E0089067C /* SlideNumberPuzzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1926982B08DC0E0089067C /* SlideNumberPuzzleTests.swift */; };
 		AB1926A32B08DC0E0089067C /* SlideNumberPuzzleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1926A22B08DC0E0089067C /* SlideNumberPuzzleUITests.swift */; };
 		AB1926A52B08DC0E0089067C /* SlideNumberPuzzleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1926A42B08DC0E0089067C /* SlideNumberPuzzleUITestsLaunchTests.swift */; };
+		AB1926B42B0A6DE10089067C /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1926B32B0A6DE10089067C /* GameModel.swift */; };
+		AB1926B62B0A6E9E0089067C /* SlidePuzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1926B52B0A6E9E0089067C /* SlidePuzzle.swift */; };
+		AB1926B82B0A6ECC0089067C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1926B72B0A6ECC0089067C /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		AB19269E2B08DC0E0089067C /* SlideNumberPuzzleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideNumberPuzzleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB1926A22B08DC0E0089067C /* SlideNumberPuzzleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideNumberPuzzleUITests.swift; sourceTree = "<group>"; };
 		AB1926A42B08DC0E0089067C /* SlideNumberPuzzleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideNumberPuzzleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AB1926B32B0A6DE10089067C /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		AB1926B52B0A6E9E0089067C /* SlidePuzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidePuzzle.swift; sourceTree = "<group>"; };
+		AB1926B72B0A6ECC0089067C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +100,13 @@
 		AB1926862B08DC0D0089067C /* SlideNumberPuzzle */ = {
 			isa = PBXGroup;
 			children = (
+				AB1926B72B0A6ECC0089067C /* CardView.swift */,
 				AB1926872B08DC0D0089067C /* SlideNumberPuzzleApp.swift */,
 				AB1926892B08DC0D0089067C /* ContentView.swift */,
+				AB1926B32B0A6DE10089067C /* GameModel.swift */,
 				AB19268B2B08DC0E0089067C /* Assets.xcassets */,
 				AB19268D2B08DC0E0089067C /* Preview Content */,
+				AB1926B52B0A6E9E0089067C /* SlidePuzzle.swift */,
 			);
 			path = SlideNumberPuzzle;
 			sourceTree = "<group>";
@@ -259,6 +268,9 @@
 			files = (
 				AB19268A2B08DC0D0089067C /* ContentView.swift in Sources */,
 				AB1926882B08DC0D0089067C /* SlideNumberPuzzleApp.swift in Sources */,
+				AB1926B42B0A6DE10089067C /* GameModel.swift in Sources */,
+				AB1926B62B0A6E9E0089067C /* SlidePuzzle.swift in Sources */,
+				AB1926B82B0A6ECC0089067C /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
